@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/main_menu"
+        tools:layout_editor_absoluteX="16dp">
+
+        <ImageView
+            android:id="@+id/profile_menu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:background="@drawable/btn_menu"
+            android:contentDescription="@string/menu_profile_description"
+            android:scaleType="fitXY"
+            android:src="@drawable/menu_profile" />
+
+        <ImageView
+            android:id="@+id/about_menu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="8dp"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:background="@drawable/btn_menu"
+            android:contentDescription="@string/menu_about_description"
+            android:scaleType="fitXY"
+            android:src="@drawable/menu_tentang_kami" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/main_menu"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16dp"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:background="@drawable/btn_menu"
+            android:contentDescription="@string/main_menu_description"
+            android:scaleType="fitXY"
+            android:src="@drawable/menu_main" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="16dp">
+
+        <ImageView
+            android:id="@+id/kesehatan_menu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:background="@drawable/btn_menu"
+            android:contentDescription="@string/menu_latihan_description"
+            android:scaleType="fitXY"
+            android:src="@drawable/menu_kesehatan" />
+
+        <ImageView
+            android:id="@+id/artikel_menu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="8dp"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:background="@drawable/btn_menu"
+            android:contentDescription="@string/manu_artikel_description"
+            android:scaleType="fitXY"
+            android:src="@drawable/menu_artikel" />
+    </LinearLayout>
+</LinearLayout>

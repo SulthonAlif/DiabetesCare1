@@ -1,0 +1,216 @@
+<resources>
+    <string name="app_name">Diabetes Care</string>
+
+    <!-- Login Form Activity String Resource -->
+    <string name="login_hint_password">Password</string>
+    <string name="login_hint_username">Email</string>
+    <string name="forgot_pw_text">Lupa Password?</string>
+    <string name="btn_login_text">Masuk</string>
+    <string name="login_or_text">Atau</string>
+    <string name="login_fb_text">Masuk dengan Facebook</string>
+    <string name="login_google_text">Masuk dengan Google</string>
+    <string name="logo">LOGO</string>
+    <string name="need_account_text">Kamu Butuh Akun!</string>
+
+    <!-- Signup Form Activity String Resource -->
+    <string name="btn_signup_text">Daftar Sekarang</string>
+    <string name="header_sign_up_form">Form Pendaftaran</string>
+    <string name="signup_retype_password">Re-type Password</string>
+    <string name="signup_alamat_lengkap">Alamat Lengkap</string>
+    <string name="signup_tanggal_lahir">Tanggal Lahir</string>
+    <string name="signup_tempat_lahir">Tempat Lahir</string>
+    <string name="signup_gender_header">Jenis Kelamin</string>
+    <string name="signup_radio_pria">Pria</string>
+    <string name="signup_radio_wanita">Wanita</string>
+    <string name="signup_no_hp">No HP</string>
+    <string name="signup_full_name">Nama Lengkap</string>
+    <string name="signup_email">Email</string>
+    <string name="btn_daftar_text">Daftar</string>
+    <string name="datepicker">datePicker</string>
+
+    <!-- Label Array For Spinner -->
+    <string-array name="agama_array">
+        <item>Islam</item>
+        <item>Kristen</item>
+        <item>Hindu</item>
+        <item>Budha</item>
+        <item>Konghucu</item>
+    </string-array>
+
+    <!-- Menu String Resource -->
+    <string name="action_title_logout">Logout</string>
+    <string name="action_title_account">Account</string>
+
+    <!-- Main Menu Activity String Resource -->
+    <string name="menu_profile_description">Profile Menu</string>
+    <string name="menu_latihan_description">Menu Latihan</string>
+    <string name="manu_artikel_description">Manu Artikel</string>
+    <string name="menu_about_description">Tentang Kami</string>
+    <string name="main_menu_description">Main Menu</string>
+
+    <!-- Main Feature Activity String Resource -->
+    <string name="pertanyaan_placeholder">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</string>
+    <string name="btn_cek_resiko">Cek Resiko</string>
+    <string name="j1_p1">Ya</string>
+    <string name="j2_p1">Tidak</string>
+
+    <!-- Tentang Kami Feature Activity String Resource -->
+    <string name="rofi_nugraha_putra">Rofi Nugraha Putra</string>
+    <string name="m_sulthon_alif">M Sulthon Alif</string>
+    <string name="anggara_chandra">Anggara Chandra</string>
+    <string name="headline_text">Diabetes Care</string>
+    <string name="about_content">
+        \t\tDiabetes Care merupakan sebuah aplikasi berbasis Android yang bertujuan
+        untuk membantu dan mendukung pengguna umum serta dokter dalam menentukan
+        tingkat risiko penyakit Diabetes Melitus Tipe 2 dimana tubuh memiliki
+        insulin yang cukup tetapi tidak mampu menggunakannya dengan benar.\n\n\t\tMelalui serangkaian pertanyaan, aplikasi Diabetes Care mampu memberitahu
+        seseorang berada pada kategori rendah, sedang, ataupun tinggi dalam
+        penyakit Diabetes Melitus Tipe 2 tetapi sifatnya hanya sebagai pendukung
+        keputusan yang mana jika seseorang dinyatakan oleh aplikasi ini dia
+        memiliki tingkat risiko tinggi, maka hal tersebut tidaklah mutlak benar.
+        Namun, menjadi tolak ukur untuk menurunkan tingkat risiko atau disarankan pengguna dapat pergi
+        ke dokter langsung untuk memeriksakan lebih lanjut sebelum terlambat.
+        Aplikasi Diabetes Care memiliki 5 menu utama yaitu :\n\n1. Profil yang digunakan untuk mengatur profil akun pengguna.\n\n
+        2. Tentang Kami yang berisikan profil pembuat aplikasi Diabetes Care dan deskripisi Aplikasi Diabetes Care.\n\n
+        3. Cek Risiko yang digunakan untuk mengecek tingkat risiko terkena penyakit Diabetes Melitus Tipe 2 bagi pengguna.\n\n
+        4. Kesehatan yang digunakan untuk mengatur olahraga yang direkomendasikan untuk mengurangi risiko terkena penyakit.\n\n5. Artikel yang berisikan beberapa artikel terkait penyakit Diabetes Melitus Tipe 2.
+    </string>
+    <string name="artikel_image_description">Artikel Image</string>
+    <string name="sub_title_text">Selengkapnya...</string>
+    <string name="title_text">Faktor-faktor Pemicu Risiko Diabetes Tipe 2</string>
+    <string name="app_name_artikel_list">Artikel List</string>
+    <string name="app_name_tentangkami">Tentang Kami</string>
+
+    <array name="sports_images">
+        <item>@drawable/img_tipe2</item>
+        <item>@drawable/img_diabetes</item>
+        <item>@drawable/img_cegahdiabetes</item>
+        <item>@drawable/img_perbedaan</item>
+        <item>@drawable/img_mencegah_diabetes</item>
+        <item>@drawable/img_mencegah_diabetes2</item>
+        <item>@drawable/img_mencegah_diabetes3</item>
+    </array>
+
+    <string-array name="sports_titles">
+        <item>Faktor-faktor Pemicu Risiko Diabetes Tipe 2</item>
+        <item>Mengenal Diabetes Tipe 2: Definisi, Penyebab, dan Komplikasi</item>
+        <item>8 Langkah Mudah Mencegah Diabetes yang Bisa Dilakukan Mulai Hari Ini</item>
+        <item>Perbedaan Antara Diabetes Tipe 1 dan Diabetes Tipe 2</item>
+        <item>4 Cara Agar Tak Kena Diabetes Meski Orangtua Anda Mengidap Diabetes</item>
+        <item>Ketahui Cara Mencegah Diabetes yang Tepat di Sini</item>
+        <item>Diabetes - Gejala, penyebab dan mengobati</item>
+    </string-array>
+
+    <string-array name="sports_subs">
+        <item>Oleh Lika Aprilia Samiadi</item>
+        <item>Oleh Risky Candra Swari</item>
+        <item>Oleh Risky Candra Swari</item>
+        <item>Oleh Novita Joseph</item>
+        <item>Oleh Arinda Veratamala</item>
+        <item>oleh Dr. Marianti</item>
+        <item>oleh Dr. Marianti</item>
+    </string-array>
+
+    <string-array name="sports_link">
+        <item>https://hellosehat.com/pusat-kesehatan/diabetes-kencing-manis/faktor-faktor-pemicu-risiko-diabetes-tipe-2/</item>
+        <item>https://hellosehat.com/pusat-kesehatan/diabetes-kencing-manis/apa-itu-diabetes-tipe-2-gejala-penyebab/</item>
+        <item>https://hellosehat.com/pusat-kesehatan/diabetes-kencing-manis/cara-mencegah-diabetes/</item>
+        <item>https://hellosehat.com/pusat-kesehatan/diabetes-kencing-manis/perbedaan-antara-diabetes-tipe-1-dan-diabetes-tipe-2/</item>
+        <item>https://hellosehat.com/pusat-kesehatan/diabetes-kencing-manis/yang-harus-dilakukan-jika-anda-memiliki-keturunan-diabetes/</item>
+        <item>https://www.alodokter.com/ketahui-cara-mencegah-diabetes-yang-tepat-di-sini</item>
+        <item>https://www.alodokter.com/diabetes</item>
+    </string-array>
+
+    <array name="sports_health_icon">
+        <item>@drawable/ic_running</item>
+        <item>@drawable/ic_swimming</item>
+        <item>@drawable/ic_bicycle</item>
+        <item>@drawable/ic_weightlifting</item>
+        <item>@drawable/ic_martial_arts</item>
+        <item>@drawable/ic_tennis</item>
+        <item>@drawable/ic_table_tennis</item>
+    </array>
+
+    <string-array name="sports_health_titles">
+        <item>Berlari</item>
+        <item>Berenang</item>
+        <item>Bersepeda</item>
+        <item>Angkat Berat</item>
+        <item>Bela Diri</item>
+        <item>Tenis</item>
+        <item>Tenis Meja</item>
+    </string-array>
+
+    <string-array name="sports_health_times">
+        <item>Set Alarm</item>
+        <item>Set Alarm</item>
+        <item>Set Alarm</item>
+        <item>Set Alarm</item>
+        <item>Set Alarm</item>
+        <item>Set Alarm</item>
+        <item>Set Alarm</item>
+    </string-array>
+
+    <string name="title_activity_health_feature">Kesehatan</string>
+    <string name="icon">Icon</string>
+    <string name="health_exercise_head">Exercise</string>
+    <string name="pertanyaan_1">Apakah orang tua Anda memiliki riwayat penyakit diabetes melitus tipe 2?</string>
+    <string name="pertanyaan_2">Apakah Anda memiliki riwayat penyakit gula darah tinggi?</string>
+    <string name="pertanyaan_3">Apakah Anda memiliki riwayat penyakit tekanan darah tinggi (Hipertensi)?</string>
+    <string name="pertanyaan_4">Seberapa banyak Anda mengonsumsi makanan yang mengandung karbohidrat dan lemak yang tinggi?</string>
+    <string name="pertanyaan_5">Aktivitas fisik apa yang biasa Anda lakukan sehari-hari?</string>
+    <string name="pertanyaan_6">Berapa kali Anda berolahraga dalam waktu satu minggu?</string>
+    <string name="pertanyaan_7">Berapa indeks massa tubuh Anda? (Berat Badan dalam kg dibagi Tinggi badan dalam meter²)</string>
+    <string name="rendah_text">Rendah</string>
+    <string name="sedang_text">Sedang</string>
+    <string name="tinggi_text">Tinggi</string>
+    <string name="fisik_rendah">Mencuci, Jalan Santai, Mengepel Lantai</string>
+    <string name="fisik_sedang">Bersepeda, Jalan Cepat, Naik Tangga</string>
+    <string name="pertanyaan_8">Dalam rentang tahun berapa usia Anda?</string>
+    <string name="fisik_tinggi">Bertukang, Berkebun, Angkat Berat</string>
+    <string name="olahraga_rendah">0-1 kali/minggu</string>
+    <string name="olahraga_sedang">2-3 kali/minggu</string>
+    <string name="olahraga_tinggi"><![CDATA[> 3 kali/minggu]]></string>
+    <string name="massa_normal">0-22.9</string>
+    <string name="massa_obesitas"><![CDATA[>= 23]]></string>
+    <string name="kurang_dari"><![CDATA[< 45]]></string>
+    <string name="lebih_dari"><![CDATA[>= 45]]></string>
+    <string name="makan_rendah">0-1 kali/hari</string>
+    <string name="makan_sedang">2-3 kali/hari</string>
+    <string name="makan_tinggi"><![CDATA[> 3 kali/hari]]></string>
+    <string name="profile_name_appearance">John Wick</string>
+    <string name="btn_edit">Edit</string>
+    <string name="photo_profile_appearance">Photo Profile</string>
+    <string name="email_appearance">17523025@students.uii.ac.id</string>
+    <string name="email_subhead">Email</string>
+    <string name="no_hp_subhead">No. HP</string>
+    <string name="no_hp_appearance">081348554772</string>
+    <string name="tanggal_lahir_subhead">Tanggal Lahir</string>
+    <string name="tanggal_lahir_appearance">24 Desember 1980</string>
+    <string name="jenis_kelamin_subhead">Jenis Kelamin</string>
+    <string name="jenis_kelamin_appearance">Pria</string>
+    <string name="agama_subhead">Agama</string>
+    <string name="agama_appearance">Android Studio</string>
+    <string name="profile_picture">Profile Picture</string>
+    <string name="nama_lengkap_subhead">Nama Lengkap</string>
+    <string name="hint_current_password">Current Password</string>
+    <string name="hint_new_password">New Password</string>
+    <string name="kata_sandi_sekarang_subhead">Kata Sandi Sekarang</string>
+    <string name="kata_sandi_baru_subhead">Kata Sandi Baru</string>
+    <string name="ketik_ulang_kata_sandi_subhead">Ketik Ulang Kata Sandi</string>
+    <string name="btn_save">Save</string>
+    <string name="hint_re_type_password">Re-Type Password</string>
+    <string name="alamat_lengkap_subhead">Alamat Lengkap</string>
+    <string name="edit_agama">Agama</string>
+    <string name="btn_kurangi_resiko">Kurangi Resiko</string>
+    <string name="label_sunting">Sunting Profile</string>
+    <string name="signup_agama_textview">Agama</string>
+    <string name="card_exercise_name">Name</string>
+    <string name="card_exercise_times">20:22</string>
+    <string name="headline_article">Headline</string>
+    <string name="subheadline_article">Subheadline</string>
+    <string name="btn_gallery">Gallery</string>
+    <string name="btn_camera">Camera</string>
+    <string name="tanggal_lahir_placeholder">Tanggal Lahir</string>
+    <string name="btn_delete">Delete</string>
+</resources>

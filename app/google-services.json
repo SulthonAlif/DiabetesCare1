@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "210494057360",
+    "firebase_url": "https://diabetes-care-108f7.firebaseio.com",
+    "project_id": "diabetes-care-108f7",
+    "storage_bucket": "diabetes-care-108f7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:210494057360:android:ac47414084992066fda115",
+        "android_client_info": {
+          "package_name": "com.tubes.diabetescare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "210494057360-gmht80lls06lgvlir6l1rj6o6h0skuvr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tubes.diabetescare",
+            "certificate_hash": "94a6dac47bb5aac928438df58cf9568c758b701d"
+          }
+        },
+        {
+          "client_id": "210494057360-76374t3poovjpu36ie15387oo2slne96.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqSolE1073Qe-Zvm0DGHJJJ5O6d_WY6J4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "210494057360-76374t3poovjpu36ie15387oo2slne96.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

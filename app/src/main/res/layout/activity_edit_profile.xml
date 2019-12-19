@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".EditProfileActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/editProfilePhoto"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/profile_picture"
+                android:maxHeight="300dp"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/ic_launcher" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp">
+
+                <Button
+                    android:id="@+id/btnCamera"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="4dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_background"
+                    android:fontFamily="@font/mmedium"
+                    android:text="@string/btn_camera"
+                    android:textColor="@color/colorPrimary" />
+
+                <Button
+                    android:id="@+id/btnGallery"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_background"
+                    android:fontFamily="@font/mmedium"
+                    android:onClick="btnGallery"
+                    android:text="@string/btn_gallery"
+                    android:textColor="@color/colorPrimary" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/edit_namaLengkap"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="24dp"
+                    android:fontFamily="@font/mmedium"
+                    android:text="@string/nama_lengkap_subhead"
+                    android:textColor="@color/colorPrimary" />
+
+                <EditText
+                    android:id="@+id/isi_namaLengkap"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/login_background"
+                    android:ems="10"
+                    android:inputType="text|textCapWords"
+                    android:padding="8dp"
+                    android:text=""
+                    android:textColor="#232323" />
+
+                <TextView
+                    android:id="@+id/edit_email"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="24dp"
+                    android:fontFamily="@font/mmedium"
+                    android:text="@string/email_subhead"
+                    android:textColor="@color/colorPrimary" />
+
+                <EditText
+                    android:id="@+id/isi_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:autofillHints="@string/email_appearance"
+                    android:background="@drawable/login_background"
+                    android:ems="10"
+                    android:enabled="false"
+                    android:focusable="false"
+                    android:inputType="textEmailAddress"
+                    android:labelFor="@+id/edit_email"
+                    android:padding="8dp"
+                    android:text=""
+                    android:textColor="#232323"
+                    tools:targetApi="o" />
+
+                <TextView
+                    android:id="@+id/edit_password"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="24dp"
+                    android:fontFamily="@font/mmedium"
+                    android:text="@string/kata_sandi_sekarang_subhead"
+                    android:textColor="@color/colorPrimary" />
+
+                <EditText
+                    android:id="@+id/isi_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:autofillHints="@string/hint_current_password"
+                    android:background="@drawable/login_background"
+                    android:ems="10"
+                    android:hint="@string/hint_current_password"
+                    android:inputType="textPassword"
+                    android:maxLines="1"
+                    android:padding="8dp"
+                    android:textColor="#232323"
+                    tools:targetApi="o" />
+
+                <TextView
+                    android:id="@+id/edit_passwordBaru"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="24dp"
+                    android:fontFamily="@font/mmedium"
+                    android:text="@string/kata_sandi_baru_subhead"
+                    android:textColor="@color/colorPrimary" />
+
+                <EditText
+                    android:id="@+id/isi_passwordBaru"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:autofillHints="@string/hint_current_password"
+                    android:background="@drawable/login_background"
+                    android:ems="10"
+                    android:hint="@string/hint_new_password"
+                    android:inputType="textPassword"
+                    android:maxLines="1"
+                    android:padding="8dp"
+                    android:textColor="#232323"
+                    tools:targetApi="o" />
+
+                <TextView
+                    android:id="@+id/edit_passwordUlang"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="24dp"
+                    android:fontFamily="@font/mmedium"
+                    android:text="@string/ketik_ulang_kata_sandi_subhead"
+                    android:textColor="@color/colorPrimary" />
+
+                <EditText
+                    android:id="@+id/isi_passwordUlang"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:autofillHints="@string/hint_current_password"
+                    android:background="@drawable/login_background"
+                    android:ems="10"
+                    android:hint="@string/hint_re_type_password"
+                    android:inputType="textPassword"
+                    android:maxLines="1"
+                    android:padding="8dp"
+                    android:textColor="#232323"
+                    tools:targetApi="o" />
+
+                <TextView
+                    android:id="@+id/edit_alamatLengkap"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="24dp"
+                    android:fontFamily="@font/mmedium"
+                    android:text="@string/alamat_lengkap_subhead"
+                    android:textColor="@color/colorPrimary" />
+
+                <EditText
+                    android:id="@+id/isi_alamatLengkap"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/login_background"
+                    android:ems="10"
+                    android:hint="Alamat Lengkap"
+                    android:inputType="textMultiLine|textAutoCorrect|textCapSentences"
+                    android:padding="8dp"
+                    android:textColor="#232323" />
+
+                <TextView
+                    android:id="@+id/edit_tempatLahir"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="24dp"
+                    android:fontFamily="@font/mmedium"
+                    android:text="@string/signup_tempat_lahir"
+                    android:textColor="@color/colorPrimary" />
+
+                <EditText
+                    android:id="@+id/isi_tempatLahir"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/login_background"
+                    android:ems="10"
+                    android:inputType="text|textCapSentences|textCapWords"
+                    android:padding="8dp"
+                    android:text=""
+                    android:textColor="#232323" />
+
+                <TextView
+                    android:id="@+id/edit_tanggalLahir"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="24dp"
+                    android:fontFamily="@font/mmedium"
+                    android:text="@string/signup_tanggal_lahir"
+                    android:textColor="@color/colorPrimary" />
+
+                <EditText
+                    android:id="@+id/isi_tanggalLahir"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/login_background"
+                    android:ems="10"
+                    android:focusableInTouchMode="false"
+                    android:hint="@string/tanggal_lahir_placeholder"
+                    android:inputType="text"
+                    android:onClick="showDatePickerEdit"
+                    android:padding="8dp"
+                    android:textColor="#232323" />
+
+                <TextView
+                    android:id="@+id/edit_jenisKelamin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="24dp"
+                    android:fontFamily="@font/mmedium"
+                    android:text="@string/signup_gender_header"
+                    android:textColor="@color/colorPrimary" />
+
+                <RadioGroup
+                    android:id="@+id/edit_radioGroup"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:fontFamily="@font/mmedium"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/edit_radio_pria"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorPrimaryDark"
+                        android:text="@string/signup_radio_pria" />
+
+                    <RadioButton
+                        android:id="@+id/edit_radio_wanita"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorPrimaryDark"
+                        android:text="@string/signup_radio_wanita" />
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/edit_nohp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="24dp"
+                    android:fontFamily="@font/mmedium"
+                    android:text="@string/signup_no_hp"
+                    android:textColor="@color/colorPrimary" />
+
+                <EditText
+                    android:id="@+id/isi_nohp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/login_background"
+                    android:ems="10"
+                    android:inputType="phone"
+                    android:maxLength="13"
+                    android:padding="8dp"
+                    android:text="@string/no_hp_appearance"
+                    android:textColor="#232323" />
+
+                <TextView
+                    android:id="@+id/edit_agama"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="24dp"
+                    android:fontFamily="@font/mmedium"
+                    android:text="@string/edit_agama"
+                    android:textColor="@color/colorPrimary" />
+
+                <Spinner
+                    android:id="@+id/isi_agama_spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:fontFamily="@font/mregular"
+                    android:padding="8dp" />
+
+                <Button
+                    android:id="@+id/btnSave"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/btn_daftar"
+                    android:fontFamily="@font/mmedium"
+                    android:text="@string/btn_save"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
+
+    <!--<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--    xmlns:tools="http://schemas.android.com/tools"-->
+    <!--    android:layout_width="match_parent"-->
+    <!--    android:layout_height="match_parent"-->
+    <!--    tools:context=".EditProfileActivity">-->
+
+    <!--</androidx.constraintlayout.widget.ConstraintLayout>-->
